@@ -1,7 +1,7 @@
 # ray tracing geometry with noise
 Xi Liu</br>
 2022</br>
-3d scene is a ray traced sphere by solving ray sphere intersection equation using Lambertian shading and Phong reflection model in GLSL and WebGL. cube, octahedron, and other convex shapes are traced using intersection of planes, in which planes define halfspaces. noise is applied within the shade_sphere() function that computes the color of a point on sphere</br>
+3d scene is a ray traced sphere by solving ray sphere intersection equation using Lambertian shading and Phong reflection model in GLSL and WebGL. cube, octahedron, and other convex shapes are traced using intersection of planes, in which planes define halfspaces. noise is applied in various shapes using Perlin's noise algorithm</br>
 2d scene is manipulation of path tracing and bezier curve in html canvas, different paths and color string are computed for each time t</br>
 ![10.2](imgs/10.2.png)
 ![10.2.2](imgs/10.2.2.png)
